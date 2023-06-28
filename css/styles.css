@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fbfbfb;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+}
+
+.cabecera{
+    background-color:#2b2b2b;
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;  
+    box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+    height: 90px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+}
+
+
+header{
+    
+    width: 100%;
+    position: fixed;
+} 
+
+
+/* .-----------------------------------------IMAGEN PRINCIPAL------------- */
+.img-foto{
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+}
+/* ----------------------------------------- ESTILOS GENERALES A SECTION--- */
+
+section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+/* ------------------------------------------------- SECTION INICIO----- */
+
+#inicio{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+
+.redes-sociales{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-direction: row;
+    border-radius: none;
+
+    margin-bottom: 25px;
+    
+}
+
+i {
+    font-size: 20px;
+    margin: 10px;
+    color: #2b2b2b;
+}
+
+
+/* ------------------------------------------------- SECCION EXPERIENCI-LABORAL----- */
+.experiencia{
+    background-color: rgba(165, 161, 164, 0.3);
+    border-radius: 10PX;
+    color: #0f0f0f;
+    padding: 20px;
+    margin: 20px;
+}
+/* -----------------------------------------------------------------SECCION CERTIFICACIONES */
+
+.certificacion {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+     padding: 10px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
+
+.box {
+    flex: 1;
+    padding: 15px;
+    background-color: #2b2b2b;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s;
+    color: #fbfbfb;
+}
+
+.boxx {
+    flex: 1;
+    padding: 15px;
+    background-color:  #f6cd3b;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+/*  estilos ---------------------------------------------------------h1/h2 */
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/* --------------------------------------------------------------------LISTAS */
+ul {
+    list-style: none;
+}
+
+
+li.menu-item:hover,
+li.menu-item a.active,
+ a.btn:hover{
+    background-color:  #f6cd3b;
+    transition: background-color 0.3s;
+    opacity: 0.8;
+}  
+
+
+li.menu-item a {
+    padding: 16px;
+    display: inline-block;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+/* ------------------------------------------------------------------MAIN */
+main {
+    max-width: 1200px;
+    min-width: 380px;
+    margin: auto;
+}
+
+/*----------------------------------------------------- Botoom----------- */
+.boton{
+    display: block;
+    width: 250px;
+    background-color:#f6cd3b;
+    margin-top: 20px;
+    margin-left: 15%;
+    padding: 10px 0;
+    border-radius: 20px ;
+    color: #2b2b2b;
+    font-size: 20px;
+    border-color: transparent;
+}
+
+/* ----------------------------------------------------------------PARRAFO */
+p {
+    margin: 20px 0;
+    text-align: justify;
+    padding: 20px;
+}
+.letras-parrafos{
+    font-weight: bold;
+}
+
+/* encabezados---------------------- */
+.encabezados{
+    background-color:#2b2b2b;
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;  
+    box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+    height: 90px;
+}
+
+
+
+/* pie de pagina---------------------------------------- */
+footer{
+    background-color:#2b2b2b;
+    text-align: center;
+    color: #fbfbfb;
+    height: 120px;
+    width: 100%;
+    padding: 40px 30px;
+    min-width: 380px;
+}
+.pie-pagina {
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pie-pagina i{
+    color: #fbfbfb;
+    font-size: 20px;
+}
+
+
+
+/* MEDIDAS QUERY------------------ */
+
+
+
+/* Media queries para tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #inicio{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px; 
+        
+    }
+    
+    .redes-sociales{
+        display:flex;
+        justify-content:space-around;
+        align-items:flex-start;
+        flex-direction: column;
+        border-radius: none;
+
+        margin-bottom: 25px;
+        
+    }
+
+    
+    .bografia {
+
+        margin-top: 100px;
+    }
+
+     /*----------------------------------------------------- Botoom----------- */
+     .boton {
+        display: block;
+        width: 250px;
+        background-color:#f6cd3b;
+        margin-top: 20px;
+        margin-left: 10px;
+        padding: 10px 0;
+        border-radius: 20px ;
+        color: #2b2b2b;
+        font-size: 20px;
+        border-color: transparent;
+    }
+
+  }
+  
+  
+  /* Media queries para laptop */
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+ 
+    #inicio{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px; 
+        
+    }
+    
+    .redes-sociales{
+        display:flex;
+        justify-content:space-around;
+        align-items:flex-start;
+        flex-direction: column;
+        border-radius: none;
+
+        margin-bottom: 25px;
+        
+    }
+    .bografia {
+
+        margin-top: 100px;
+    }
+
+
+    i {
+        font-size: 20px;
+        margin: 10px;
+        color: #2b2b2b;
+    }   
+
+    
+.certificacion {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+     padding: 10px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+}
+
+.box {
+    flex: 1;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+.boxx {
+    flex: 1;
+    padding: 15px;
+    background-color:  #f6cd3b;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+    /*----------------------------------------------------- Botoom----------- */
+    .boton {
+        display: block;
+        width: 250px;
+        background-color: #f6cd3b;
+        margin-top: 20px;
+        margin-left: 25%;
+        padding: 10px 0;
+        border-radius: 20px ;
+        color: #2b2b2b;
+        font-size: 20px;
+        border-color: transparent;
+    }
+
+        
+.certificacion {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+     padding: 10px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+}
+
+.box {
+    flex: 1;
+    padding: 15px;
+    background-color:  #2b2b2b;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+.boxx {
+    flex: 1;
+    padding: 15px;
+    background-color:  #f6cd3b;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+
+.box:hover {
+    transform: translateY(-5px);
+}
+  }
+
+ 
+  /* Media queries para desktop */
+  @media only screen and (min-width: 1441px) {
+   
+    #inicio{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px; 
+        
+    }
+    
+    .redes-sociales{
+        display:flex;
+        justify-content:space-around;
+        align-items:flex-start;
+        flex-direction: column;
+        border-radius: none;
+
+        margin-bottom: 25px;
+        
+    }
+
+    i {
+        font-size: 20px;
+        margin: 10px;
+        color: #2b2b2b;
+    }   
+
+
+    /*----------------------------------------------------- Botoom----------- */
+    .boton {
+        display: block;
+        width: 250px;
+        background-color:#f6cd3b;
+        margin-top: 20px;
+        margin-left: 25%;
+        padding: 10px 0;
+        border-radius: 20px ;
+        color: #2b2b2b;
+        font-size: 20px;
+        border-color: transparent;
+    }
+
+    
+.certificacion {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+     padding: 10px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+}
+
+.box {
+    flex: 1;
+    padding: 15px;
+    background-color:  #2b2b2b;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+.boxx {
+    flex: 1;
+    padding: 15px;
+    background-color:  #f6cd3b;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+  }
+  
+  
