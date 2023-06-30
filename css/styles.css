@@ -234,21 +234,13 @@ footer{
     text-align: center;
     color: #fbfbfb;
     width: 100%;
-    padding: 10px 10px;
-    height:auto;
+    padding: 40px 30px;
+    height:100px;
+    min-width:380px;
    
     
 }
 
- .pie-pagina {
-
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-}
 
 .pie-pagina i{
     color: #ffffff;
@@ -261,7 +253,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items:center;
-    justify-content: space-evenly;
+    justify-content: center;
 
 
 }
@@ -394,6 +386,8 @@ footer{
 .box:hover {
     transform: translateY(-5px);
 }
+
+
 
     /*----------------------------------------------------- Botoom----------- */
     .boton {
@@ -542,6 +536,8 @@ h2{
     font-size: 32px;
     text-align: center;
 }
+
+
 
   }
   
